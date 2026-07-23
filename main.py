@@ -1,3 +1,8 @@
-name = input()
-age = input()
-print("Hi, " + name + "! You are " + age + " years old.")
+width = int(input())
+height = int(input())
+
+area = width * height
+perimeter = 2 * (width + height)
+
+print(area)
+print(perimeter)
