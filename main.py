@@ -1,4 +1,5 @@
-a = int(input())
-b = int(input())
+num = int(input())
 
-print(a + b)
+print('zero' if num == 0 else 'positive' if num > 0 else 'negative')
+
+
