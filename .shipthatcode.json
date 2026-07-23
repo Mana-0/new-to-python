@@ -1,0 +1,7 @@
+{
+  "course": "python-fundamentals",
+  "language": "python",
+  "language_id": 71,
+  "entrypoint": "main.py",
+  "version": 1
+}
