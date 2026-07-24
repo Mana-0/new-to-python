@@ -1,9 +1,4 @@
-total = 0
-
-while True:
-    num = int(input())
-    if num == 0:
-        break
-    total += num
-
-print(total)
+n = int(input())
+for row in range(n):
+    spaces = ' ' * (n - row - 1)
+    print(spaces + '*' * (row + 1))
