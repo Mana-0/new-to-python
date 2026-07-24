@@ -1,3 +1,3 @@
 text = input()
 
-print(text[::-1])   
+print(text.count('a') + text.count('i') + text.count('e') + text.count('o') + text.count('u'))
